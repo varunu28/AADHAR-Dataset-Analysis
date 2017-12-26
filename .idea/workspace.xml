@@ -1,8 +1,262 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1620badb-fc82-47de-88e3-65897da0e293" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="a27f6429-b30d-48d3-9835-5bf49eba2b6c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/varunu28.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ReadingData.scala" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__aopalliance_aopalliance_1_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__asm_asm_3_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_clearspring_analytics_stream_2_7_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_esotericsoftware_kryo_kryo_2_21_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_esotericsoftware_minlog_minlog_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_esotericsoftware_reflectasm_reflectasm_1_07_shaded_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_annotations_2_4_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_core_2_4_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_databind_2_4_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_module_jackson_module_scala_2_10_2_4_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_code_findbugs_jsr305_1_3_9_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_guava_guava_14_0_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_inject_guice_3_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_protobuf_protobuf_java_2_5_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_ning_compress_lzf_1_0_3_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_sun_jersey_contribs_jersey_guice_1_9_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_sun_jersey_jersey_core_1_9_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_sun_jersey_jersey_json_1_9_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_sun_jersey_jersey_server_1_9_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_sun_jersey_jersey_test_framework_jersey_test_framework_grizzly2_1_9_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_sun_xml_bind_jaxb_impl_2_2_3_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_thoughtworks_paranamer_paranamer_2_6_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_chill_2_10_0_5_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_chill_java_0_5_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_akka_akka_actor_2_10_2_3_11_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_akka_akka_remote_2_10_2_3_11_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_akka_akka_slf4j_2_10_2_3_11_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_config_1_2_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__commons_beanutils_commons_beanutils_1_7_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__commons_beanutils_commons_beanutils_core_1_8_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__commons_cli_commons_cli_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__commons_codec_commons_codec_1_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__commons_collections_commons_collections_3_2_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__commons_configuration_commons_configuration_1_6_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__commons_digester_commons_digester_1_8_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__commons_httpclient_commons_httpclient_3_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__commons_io_commons_io_2_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__commons_lang_commons_lang_2_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__commons_net_commons_net_2_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__io_dropwizard_metrics_metrics_core_3_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__io_dropwizard_metrics_metrics_graphite_3_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__io_dropwizard_metrics_metrics_json_3_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__io_dropwizard_metrics_metrics_jvm_3_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_3_8_0_Final_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_all_4_0_29_Final_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__javax_activation_activation_1_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__javax_inject_javax_inject_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__javax_xml_bind_jaxb_api_2_2_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__jline_jline_0_9_94_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__log4j_log4j_1_2_17_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__net_java_dev_jets3t_jets3t_0_7_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__net_jpountz_lz4_lz4_1_3_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__net_razorvine_pyrolite_4_9_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__net_sf_py4j_py4j_0_9_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_avro_avro_1_7_7_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_avro_avro_ipc_1_7_7_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_avro_avro_ipc_1_7_7_tests_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_avro_avro_mapred_1_7_7_hadoop2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_commons_commons_compress_1_4_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_commons_commons_lang3_3_3_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_commons_commons_math3_3_4_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_commons_commons_math_2_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_curator_curator_client_2_4_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_curator_curator_framework_2_4_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_curator_curator_recipes_2_4_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_annotations_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_auth_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_client_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_common_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_hdfs_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_api_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_client_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_common_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_server_common_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_ivy_ivy_2_4_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_mesos_mesos_0_21_1_shaded_protobuf_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_spark_spark_core_2_10_1_6_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_spark_spark_launcher_2_10_1_6_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_spark_spark_network_common_2_10_1_6_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_spark_spark_network_shuffle_2_10_1_6_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_spark_spark_unsafe_2_10_1_6_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_zookeeper_zookeeper_3_4_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_codehaus_jackson_jackson_jaxrs_1_8_3_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_codehaus_jackson_jackson_xc_1_8_3_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_codehaus_jettison_jettison_1_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_json4s_json4s_ast_2_10_3_2_10_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_json4s_json4s_core_2_10_3_2_10_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_json4s_json4s_jackson_2_10_3_2_10_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_mortbay_jetty_jetty_util_6_1_26_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_objenesis_objenesis_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_roaringbitmap_RoaringBitmap_0_5_11_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_compiler_2_10_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_10_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scalap_2_10_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_jcl_over_slf4j_1_7_10_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_jul_to_slf4j_1_7_10_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_10_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_log4j12_1_7_10_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_sonatype_sisu_inject_cglib_2_2_1_v20090111_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_spark_project_spark_unused_1_0_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_tachyonproject_tachyon_client_0_8_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_tachyonproject_tachyon_underfs_hdfs_0_8_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_tachyonproject_tachyon_underfs_local_0_8_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_tachyonproject_tachyon_underfs_s3_0_8_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_tukaani_xz_1_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_uncommons_maths_uncommons_maths_1_2_2a_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_xerial_snappy_snappy_java_1_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__oro_oro_2_0_8_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__stax_stax_api_1_0_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SBT__xmlenc_xmlenc_0_52_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/aadhardataanalysis-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/aadhardataanalysis-build.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/aadhardataanalysis.iml" afterPath="$PROJECT_DIR$/.idea/modules/aadhardataanalysis.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/InputData/UIDAI-ENR-DETAIL-20171128-Filtered.csv" afterPath="$PROJECT_DIR$/InputData/InputDataWithoutHeader" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change beforePath="$PROJECT_DIR$/project/build.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$343ba43caf0119093ee8$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$343ba43caf0119093ee8.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$343ba43caf0119093ee8.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3c44a40eeb1fccf213e6$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3c44a40eeb1fccf213e6.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3c44a40eeb1fccf213e6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5455c8e8251ccca9439c$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5455c8e8251ccca9439c.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5455c8e8251ccca9439c.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6510383680cb353d6138$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6510383680cb353d6138.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6510383680cb353d6138.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7a05f605a0acbccee05f$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7a05f605a0acbccee05f.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7a05f605a0acbccee05f.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/aadhardataanalysis-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/aadhardataanalysis-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-aadhardataanalysis-build-compile-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-aadhardataanalysis-build-compile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-aadhardataanalysis-build-optional.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-aadhardataanalysis-build-plugin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-aadhardataanalysis-build-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-aadhardataanalysis-build-provided.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-aadhardataanalysis-build-runtime-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-aadhardataanalysis-build-runtime.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-aadhardataanalysis-build-scala-tool.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-aadhardataanalysis-build-test-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-aadhardataanalysis-build-test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/$global/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Analysis.scala" afterPath="$PROJECT_DIR$/src/main/scala/Analysis.scala" />
+      <change beforePath="$PROJECT_DIR$/target/.history" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Analysis$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Analysis$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Analysis.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Record$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/Record.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/default/aadhardataanalysis$sources/0.1/resolved.xml.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/default/aadhardataanalysis$sources/0.1/resolved.xml.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/default/aadhardataanalysis_2.10/0.1/resolved.xml.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/default/aadhardataanalysis_2.10/0.1/resolved.xml.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis$sources-compile-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis$sources-compile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis$sources-optional.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis$sources-plugin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis$sources-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis$sources-provided.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis$sources-runtime-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis$sources-runtime.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis$sources-scala-tool.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis$sources-test-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis$sources-test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis_2.10-compile-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis_2.10-compile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis_2.10-optional.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis_2.10-plugin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis_2.10-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis_2.10-provided.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis_2.10-runtime-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis_2.10-runtime.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis_2.10-scala-tool.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis_2.10-test-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-aadhardataanalysis_2.10-test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/ivy-report.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/ivy-report.xsl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
@@ -13,37 +267,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Analysis.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Analysis.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="443">
+              <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="378">
+                <caret line="21" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -54,8 +320,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/InputData/scriptFile.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Product.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ReadingData.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/scala/Analysis.scala" />
       </list>
     </option>
@@ -65,6 +331,14 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="-28" />
+    <option name="width" value="1366" />
+    <option name="height" value="796" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -81,34 +355,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="AadharDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AadharDataAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="AADHAR-Dataset-Analysis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AadharDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AadharDataAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="AADHAR-Dataset-Analysis" type="462c0819:PsiDirectoryNode" />
               <item name="InputData" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AadharDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AadharDataAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="AADHAR-Dataset-Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AadharDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AADHAR-Dataset-Analysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AadharDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AadharDataAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="AADHAR-Dataset-Analysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AadharDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AadharDataAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="AADHAR-Dataset-Analysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
@@ -117,14 +398,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/InputData" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,25 +422,40 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Analysis">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
     <configuration name="Analysis" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Analysis" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/InputData/UIDAI-ENR-DETAIL-20171128-Filtered.csv" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="aadhardataanalysis" />
+      <module name="aadhar-dataset-analysis" />
       <envs />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+    <configuration name="ReadingData" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ReadingData" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="aadhar-dataset-analysis" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -184,7 +482,7 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -192,12 +490,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -219,7 +511,7 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -233,14 +525,25 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.ReadingData" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Analysis" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.Analysis" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReadingData" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1511973926697" />
+    <option name="lastUpdateTimestamp" value="1514319349518" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -253,11 +556,11 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="aadhardataanalysis" />
+                <option name="name" value="aadhar-dataset-analysis" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="aadhardataanalysis-build" />
+                <option name="name" value="aadhar-dataset-analysis-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -272,53 +575,58 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1620badb-fc82-47de-88e3-65897da0e293" name="Default" comment="" />
-      <created>1511973815341</created>
+      <changelist id="a27f6429-b30d-48d3-9835-5bf49eba2b6c" name="Default" comment="" />
+      <created>1514313282226</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1511973815341</updated>
-      <workItem from="1511973820103" duration="2940000" />
+      <updated>1514313282226</updated>
+      <workItem from="1514313283660" duration="6912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2940000" />
+    <option name="totallyTimeSpent" value="6912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="-4" width="1315" height="772" extended-state="6" />
+    <frame x="0" y="-28" width="1366" height="796" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6418605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939324" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49855492" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24090908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Google Cloud Storage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -333,55 +641,49 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/InputData/scriptFile.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Product.scala">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/InputData/InputDataWithoutHeader">
+      <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ReadingData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="378">
+            <caret line="21" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Analysis.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="443">
+          <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aadhardataanalysis.iml" filepath="$PROJECT_DIR$/.idea/modules/aadhardataanalysis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aadhardataanalysis-build.iml" filepath="$PROJECT_DIR$/.idea/modules/aadhardataanalysis-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aadhar-dataset-analysis.iml" filepath="$PROJECT_DIR$/.idea/modules/aadhar-dataset-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aadhar-dataset-analysis-build.iml" filepath="$PROJECT_DIR$/.idea/modules/aadhar-dataset-analysis-build.iml" />
     </modules>
   </component>
 </project>
