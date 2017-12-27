@@ -8,6 +8,7 @@ target/*
 .project
 tweets.txt
 checkpoint/
+project/*
 
 # Compiled source #
 ###################
