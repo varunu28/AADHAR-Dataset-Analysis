@@ -50,14 +50,26 @@ object Analysis {
         .foreach(println)*/
 
     // Top 3 State With maximum identities generated for both Male and Female
-      sqlContext
+      /*sqlContext
           .sql("SELECT State, COUNT(*) AS num" +
               " FROM (SELECT * FROM data WHERE Gender NOT IN ('T')) AS Temp " +
             "GROUP BY State " +
-            "Order By num " +
+            "Order By num DESC " +
             "LIMIT 3")
           .take(10)
-          .foreach(println)
+          .foreach(println)*/
+
+    // Top 3 States With maximum identities generated for Female
+    /*sqlContext
+      .sql("SELECT State, COUNT(*) AS num" +
+        " FROM (SELECT * FROM data WHERE Gender = 'F') AS Temp " +
+        "GROUP BY State " +
+        "Order By num " +
+        "LIMIT 3")
+      .collect()
+      .foreach(println)*/
+
+
 
   }
 

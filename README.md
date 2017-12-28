@@ -1,6 +1,12 @@
 # AADHAR-Dataset-Analysis
 Data analysis of AADHAR dataset using Apache Spark
 
+#### Technologies Used
+ - Spark 
+ - Scala
+ - Spark SQL
+ - Linux Shell Scripting
+
 #### Initial Data Cleaning
 
 - Removing the header containing column names (Done using scala)
@@ -10,7 +16,7 @@ Data analysis of AADHAR dataset using Apache Spark
 
 Creating the DataFrame for starting the analysis using the case class corresponding to the column names in input data
 
-## Analysis Result
+## Questions Answered about data
 
 #### Count for number of participants and count for each gender
 - Number of Male Participants = 102037
@@ -59,6 +65,24 @@ Creating the DataFrame for starting the analysis using the case class correspond
  - Dadra and Nagar Haveli : 27
  - Daman and Diu : 45
 
-#### Top 3 States With maximum identities generated for Female
+#### Top 3 States With number of identities generated for Female
+ - Uttar Pradesh : 26063
+ - Bihar : 15353
+ - Rajasthan : 11404
+ 
+#### Bottom 3 States With number of identities generated for Female
+ - Lakshadweep - 6
+ - Others - 17
+ - Dadra and Nagar Haveli - 21
 
-#### Top 3 States With maximum identities generated for Male
+#### Top 3 States With number identities generated for Male
+ - Uttar Pradesh : 24191
+ - Bihar : 14489
+ - Rajasthan : 9340
+ 
+#### Bottom 3 States With number identities generated for Male
+ - Dadra and Nagar Haveli - 6
+ - Lakshadweep - 8
+ - Daman and Diu - 17
+ 
+*The gender-wise distribution follows the same trend as that of same distribution*
